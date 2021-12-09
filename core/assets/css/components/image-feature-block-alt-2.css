@@ -1,0 +1,151 @@
+/* COMPONENT - IMAGE FEATURE BLOCK ALT 2 */
+.mk-component-image-feature-block-alt-2 .wpb_column .uncol{
+    height: 100%;
+}
+
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(1) .uncont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(1) .uncont .vc_custom_heading_wrap h2{
+    font-size: 50px;
+    text-align: right;
+    font-style: italic;
+    line-height: 1.07;
+    letter-spacing: 3px;
+    width: 100%;
+}
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(1) .uncont .uncode_text_column{
+    height: auto;
+}
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(1) .uncont .uncode_text_column p{
+    font-size: 15px;
+    margin: 0 !important;
+    width: 74%;
+    float: right;
+    height: auto;
+}
+
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(2) .uncont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(2) .uncont .vc_custom_heading_wrap h2{
+    font-size: 40px;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    text-align: center;
+    color: #E6E7E8;
+    margin-bottom: 0;
+    position: relative;
+    top:40px;
+}
+
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(3) .uncont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(3) .uncont .vc_custom_heading_wrap{
+    width: 100%;
+}
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(3) .uncont .vc_custom_heading_wrap h2{
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 27px 0 0;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(3) .uncont .vc_custom_heading_wrap h2::before{
+    margin-bottom: 14px;
+    content: " ";
+    display: block;
+    height: 28px;
+    margin-left: 6px;
+    width: 1px;
+    background: #fdb924;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(3) .uncont .vc_custom_heading_wrap .text-lead{
+    margin: 0px !important;
+}
+
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(3) .uncont .vc_custom_heading_wrap .text-lead p{
+    color: #fdb924;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0px !important;
+}
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(3) .uncont .uncode_text_column{
+    width: 100%;
+    margin: 0px !important;
+    height: auto;
+}
+
+.mk-component-image-feature-block-alt-2 .wpb_column:nth-child(3) .uncont .uncode_text_column p{
+    font-size: 15px;
+    text-align: left;
+    font-weight: 800;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    color: #E6E7E8;
+    height: auto;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+/* DESKTOP - Smaller */
+@media only screen and (max-width: 1200px) {
+    .mk-component-image-feature-block-alt-2 .wpb_column:nth-child(1) .uncont .vc_custom_heading_wrap h2{
+        font-size: 40px;
+    }
+    .mk-component-image-feature-block-alt-2 .wpb_column:nth-child(2) .uncont .vc_custom_heading_wrap h2{
+        font-size: 34px;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 960px) {
+    .mk-component-image-feature-block-alt-2 .wpb_column:nth-child(1) .uncont .vc_custom_heading_wrap h2{
+        font-size: 34px;
+    }
+    .mk-component-image-feature-block-alt-2 .wpb_column:nth-child(2) .uncont .vc_custom_heading_wrap h2{
+        font-size: 28px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 569px) {
+    .mk-component-image-feature-block-alt-2 .wpb_column:nth-child(1) .uncont .vc_custom_heading_wrap h2{
+        font-size: 28px;
+    }
+    .mk-component-image-feature-block-alt-2 .wpb_column:nth-child(2) .uncont .vc_custom_heading_wrap h2{
+        font-size: 24px;
+    }
+    .mk-component-image-feature-block-alt-2 .wpb_column:nth-child(3) .uncont{
+        padding-left: 40px;
+    }
+}

@@ -1,0 +1,84 @@
+/* COMPONENT -  CAROUSEL - REVOLUTION SLIDER */
+.rev-heading{
+    line-height: 0.94 !important;
+    letter-spacing: 8px !important;
+    display: inline-block !important;
+    position: relative !important;
+    text-shadow: 0 4px 19px rgba(0,0,0,0.4);
+    font-family: industry,sans-serif !important;
+    font-style: italic;
+}
+.rev-heading::before{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    width: 350%;
+    bottom: auto;
+    top: .4em;
+    content: " ";
+    position: absolute;
+    right: 105%;
+    margin: auto;
+    border-bottom: 1px solid #fdb924;
+    height: 1px;
+    opacity: 0.8;
+}
+
+.rev-subheading{
+    display: inline-block !important;
+    position: relative !important;
+    line-height: 1.5 !important;
+    letter-spacing: 4.5px !important;
+    padding-bottom: 0 !important;
+    text-shadow: 0 4px 19px rgba(0,0,0,0.4);
+    font-family: industry,sans-serif !important;
+    font-style: italic;
+}
+
+.rev-subheading::before{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    top: 0;
+    bottom: 0;
+    width: 350%;
+    margin: auto;
+    left: 100%;
+    content: " ";
+    position: absolute;
+    right: -21px;
+    display: inline-block;
+    height: 1px;
+    object-fit: contain;
+    background-color: #a7a9ac;
+
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+/* DESKTOP - Larger */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* DESKTOP - Smaller */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* TABLET */
+@media only screen and (max-width: 960px) {
+.rev-subheading::before{
+    content: none;
+}
+}
+
+/* MOBILE */
+@media only screen and (max-width: 569px) {
+.rev-subheading::before{
+    content: none;
+}
+
+
+}

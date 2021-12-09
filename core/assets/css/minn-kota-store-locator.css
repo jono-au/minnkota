@@ -1,0 +1,762 @@
+
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow {
+  background-color: #303133;
+  border: solid 3px #fdb924;
+  -webkit-box-shadow: 0px 10px 79px 0px rgba(0,0,0,0.58);
+-moz-box-shadow: 0px 10px 79px 0px rgba(0,0,0,0.58);
+box-shadow: 0px 10px 79px 0px rgba(0,0,0,0.58);
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow h3 {
+  color: #fdb924;
+  background-color: transparent !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .features li {
+  color: #333333;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow h2 {
+  color: #51493e;
+}
+
+body #asl-storelocator.storelocator-main.asl-p-cont .infoBox img{
+  position: relative;
+  top:0;
+  right:10px;
+}
+
+
+
+
+body #asl-storelocator.storelocator-main.asl-p-cont .storelocator-panel {
+  border: 1px solid #cccccc;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .storelocator-panel .resut-found {
+  background: #ffffff;
+  border-bottom: 1px dotted #c8c5b8;
+  color: #52483d;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .storelocator-panel .store-list li {
+  background: #ffffff;
+  border-bottom: 1px dotted #c8c5b8;
+  color: #52483d;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .storelocator-panel .store-list li.store:hover {
+  background: #ffffff;
+  color: #51493e;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .storelocator-panel .store-list li.highlighted {
+  background: #ffffff;
+  color: #51493e;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .storelocator-panel .store-list li.highlighted:hover {
+  background: #ffffff;
+  color: #51493e;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .storelocator-panel .store-list .no-stores {
+  background-color: #EEE7E7;
+  color: #333333;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .storelocator-panel .directions-panel {
+  background: #ffffff;
+  color: #52483d;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .storelocator-panel .directions {
+  color: blue;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .store-locator .agile-modal {
+  color: #706B65;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .store-locator h4 {
+  color: #333;
+  font-size: 16px;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .store-locator .agile-modal-backdrop-in {
+  background-color: #51493e;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .store-locator button.close-directions.close[aria-label="Close"] {
+  background: rgba(0,0,0,0) none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #cccccc;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .store .features {
+  color: grey;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .store .web a {
+  color: green;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .store .action {
+  color: green;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .half-rule {
+  border-color: #cccccc;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .half-rule-1 {
+  border-bottom: 1px solid #dddddd;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-map-canv {
+  background: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #panel,
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-list {
+  background: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .map-canvas-outer {
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #dddddd;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont div.arrow-down {
+  border-top: 25px solid #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .loading {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .asl-overlay h1.h1 {
+  color: #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .asl-overlay-on-item h1.h1 {
+  color: #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont body.search-list {
+  background: #F8F8F8;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #panel,
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-list {
+  color: #51493e;
+  height: 472px;
+  padding: 10px;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #panel .item-state a,
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-list .item-state a {
+  color: #51493e;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #panel .item-state a span,
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-list .item-state a span {
+  background: #e1e1e1;
+  color: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #panel .item-state a:hover span,
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-list .item-state a:hover span {
+  background-color: #fdb924;
+  color: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #panel .item-state a.collapsed span,
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-list .item-state a.collapsed span {
+  background-color: #90CAF9;
+  background-color: #e1e1e1;
+  color: #fafafa;
+  color: #51493e;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #panel .store-inner,
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-list .store-inner {
+  border-bottom: 1px solid #f0eeea;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .store.highlighted .store-inner {
+  background-color: #ffffe0;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoBox .categories {
+  color: #cccccc;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .btn-default {
+  background-color: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .btn-default#btn-geolocation:hover {
+  background-color: #fdb924;
+  border-color: #fdb924;
+  color: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .chosen-container-multi .chosen-choices {
+  border: 1px solid #cccccc;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .item {
+  background: transparent none repeat scroll 0 0 !important;
+  border-bottom: 1px solid #cccccc !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .item .data-section .title-item {
+  color: #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .item .data-section .p-distance,
+body #asl-storelocator.storelocator-main.asl-p-cont .item .data-section .addr-sec * {
+  color: #51493e;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .item .data-section .p-direction {
+  color: #ffffff;
+  background: #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .wrapper-container {
+  background: #ffffff;
+  border: 1px solid #d6dce2;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .listing-map.list-only {
+  background: #ffffff;
+  border: 1px solid #d6dce2;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .item.highlighted {
+  background: #EEEEEE !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .adropdown-menu>.active>a,
+body #asl-storelocator.storelocator-main.asl-p-cont .adropdown-menu>.active>a:hover,
+body #asl-storelocator.storelocator-main.asl-p-cont .adropdown-menu>.active>a:focus {
+  background: #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .asl-map .search_filter.inside-map p input {
+  color: #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .asl-map .search_filter.inside-map p span i {
+  background: #fdb924;
+  color: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .asl-map .search_filter.inside-map p span i:after {
+  border-color: transparent transparent transparent #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .phone>b,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .address,
+body #asl-storelocator.storelocator-main.asl-p-cont .btn-default,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .categories,
+body #asl-storelocator.storelocator-main.asl-p-cont .panel-inner .item .addr-sec .p-title {
+  color: #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow a.action,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow a.action.directions,
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-list .item-state a span,
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-list .item-state a:hover span,
+body #asl-storelocator.storelocator-main.asl-p-cont #panel .item-state a span,
+body #asl-storelocator.storelocator-main.asl-p-cont #panel .item-state a:hover span,
+body #asl-storelocator.storelocator-main.asl-p-cont button.close-directions.close[aria-label="Close"] {
+  background-color: #fdb924;
+  color: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .btn-default#btn-geolocation:hover,
+body #asl-storelocator.storelocator-main.asl-p-cont .btn-default,
+body #asl-storelocator.storelocator-main.asl-p-cont .panel .item .thumb-a img,
+body #asl-storelocator.storelocator-main.asl-p-cont .panel .item {
+  border-color: #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .panel .item {
+  background: #ffffff !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .item-state .panel .item:nth-child(2n) {
+  background: #fafafa none repeat scroll 0 0 !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont button.close-directions.close[aria-label="Close"] {
+  background: rgba(0,0,0,0) none repeat scroll 0 0;
+  color: #cccccc;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont input#auto-complete-search:focus {
+  border-color: rgba(0,0,0,0.36);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(0,0,0,0.2);
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .categories_filter .multiselect.adropdown-toggle.style-btn.btn.btn-default {
+  border-color: #333333;
+  color: #333333;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .slider-selection {
+  background: #fdb924 none repeat scroll 0 0 !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .slider-track {
+  background: #ffffff none repeat scroll 0 0 !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .range_filter .rangeFilter .slider.slider-horizontal .slider-track .slider-handle.round:before {
+  color: #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .Status_filter input[type="checkbox"]:checked+.radio_btn {
+  background: #fdb924 none repeat scroll 0 0;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .radio_btn {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .radio_btn::before {
+  color: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .Status_filter p span {
+  color: #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .Status_filter p label {
+  color: #333333;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #panel.storelocator-panel,
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-list.storelocator-panel {
+  border: 1px solid #cccccc;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .filter-box {
+  background: #eff1f6;
+  color: #ffffff;
+  display: none;
+}
+
+body #asl-storelocator.storelocator-main.asl-p-cont .Num_of_store,
+body #asl-storelocator.storelocator-main.asl-p-cont .cats-title {
+  background: #fdb924 none repeat scroll 0 0;
+  color: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .Num_of_store span.back-button i,
+body #asl-storelocator.storelocator-main.asl-p-cont .cats-title span.back-button i {
+  border: 1px solid #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont ul.adropdown-menu.multiselect-container .btn.btn-default.multiselect-clear-filter {
+  border-color: #cccccc;
+  color: #333333;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont ul.adropdown-menu.multiselect-container li .input-group-addon {
+  color: #333333;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow a.action {
+
+  color: #fdb924 !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .storelocator-main .action.directions {
+  background: #fdb924 none repeat scroll 0 0;
+  color: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow>h3 {
+  color: #fdb924 !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .phone>b,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .address,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .categories,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .phone>a,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .distance,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .time,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow * {
+  color: #fff !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #style_1.infoWindow h3 {
+  background: transparent !important;
+  color: #fdb924 !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #style_1.infoWindow div.arrow-down {
+  border-top: 25px solid #FFF !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #style_1.infoWindow a.action {
+  color: #FFF !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #style_2.infoWindow h3 {
+  background: transparent none repeat scroll 0 0 !important;
+  color: #fdb924 !important;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #style_2.infoWindow div.arrow-down {
+  border-top: 15px solid #fdb924 !important;
+  border-left: 15px solid rgba(0, 0, 0, 0) !important;
+    border-right: 15px solid rgba(0, 0, 0, 0) !important;
+  bottom:-5px;
+  z-index: 2;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #style_2.infoWindow a.action {
+  color: #222 !important;
+  border: 0 !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow h3 {
+  background: transparent none repeat scroll 0 0;
+  color: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow a.action {
+  background: #fdb924 none repeat scroll 0 0;
+  color: #333;
+  font-size: 15px;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .storelocator-main .action.directions {
+  color: #666666;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .phone>b,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .address,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .categories,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .phone>a,
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .distance {
+  color: #333333;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoBox>img.style_2_x {
+  background: #fdb924 none repeat scroll 0 0;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow h3 {
+  background: #fdb924 none repeat scroll 0 0 !important;
+  color: #333333 !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow a.action {
+  background: #fdb924 none repeat scroll 0 0 !important;
+  border-left: 1px solid #ffffff;
+  color: #333333 !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoWindow .storelocator-main .action.directions {
+  background: #fdb924 none repeat scroll 0 0 !important;
+  border-left: 1px solid #ffffff;
+  color: #333333 !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #style_0.infoWindow .phone>b,
+body #asl-storelocator.storelocator-main.asl-p-cont #style_0.infoWindow .address,
+body #asl-storelocator.storelocator-main.asl-p-cont #style_0.infoWindow .categories,
+body #asl-storelocator.storelocator-main.asl-p-cont #style_0.infoWindow .phone>a,
+body #asl-storelocator.storelocator-main.asl-p-cont #style_0.infoWindow .distance {
+  color: #333333;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .infoBox > img.style_0_x {
+  background: #fdb924 none repeat scroll 0 0;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .Status_filter .onoffswitch-label {
+  border: 2px solid #fdb924;
+  border-radius: 0px;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .Status_filter .onoffswitch-inner:before {
+  background-color: #ffffff;
+  color: #333333;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .Status_filter .onoffswitch-inner:after {
+  background-color: #cccccc;
+  color: #333333;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .Status_filter .onoffswitch-switch {
+  background: #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .col-xs-12 > a.asl_Readmore_button {
+  color: #333333;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .btn.btn-default.btn-submit {
+  background: #fdb924 none repeat scroll 0 0;
+  border-color: #fdb924;
+  color: #ffffff;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont #asl-geolocation-agile-modal .btn.btn-default {
+  background: #fdb924 none repeat scroll 0 0;
+  color: #ffffff;
+}
+body #asl-storelocator.asl-p-cont.storelocator-main .directions-cont .agile-modal-header h4 {
+  color: #fdb924;
+}
+body #asl-storelocator.asl-p-cont.asl-no-advance.storelocator-main .filter-box {
+  background-color: #fdb924;
+}
+
+body #asl-storelocator.asl-p-cont .categories-panel{
+  background-color: #303133;
+  margin-top: 0px;
+}
+
+body #asl-storelocator.asl-p-cont .categories-panel .round-box:nth-child(1){
+  order: 3;
+}
+body #asl-storelocator.asl-p-cont .categories-panel .round-box:nth-child(2){
+  order: 1;
+}
+body #asl-storelocator.asl-p-cont .categories-panel .round-box:nth-child(3){
+  order: 2;
+}
+
+
+body #asl-storelocator .btn{
+    border-radius: 0  !important;
+    border: 2px solid #fdb924 !important;
+    padding: 8px 20px !important;
+    margin-top: 13px !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    font-weight: 900 !important;
+    width: auto !important;
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: 200% !important;
+    background-position: 100% 0 !important;
+    transition-duration: 0.8s !important;
+    transition-property: background-position !important;
+    transition-timing-function: cubic-bezier(0.46,0.26,0.43,0.99) !important;
+    transition: all .5s ease !important;
+    color: #000 !important;
+    background-image: #fdb924 !important;
+    background-image: linear-gradient(to right,#000 0%,#000 51%,#fdb924 51%,#fdb924 100%,#fdb924 100%)  !important;
+}
+body #asl-storelocator .btn:hover{
+    background-color: #54565B !important;
+    color: #fdb924 !important;
+    border: 2px solid #54565B !important;
+    background-position: 0 0 !important;
+    box-shadow: none !important;
+}
+
+body #asl-storelocator .btn::before,
+body #asl-storelocator .btn::after{
+  display: none !important;
+}
+
+body #asl-storelocator.storelocator-main.asl-p-cont .cats-title{
+  display: none;
+}
+body #asl-storelocator.asl-p-cont #asl-geolocation-agile-modal .btn.btn-default{
+  font-weight: 700 !important;
+}
+
+body #asl-storelocator.asl-p-cont.asl-template-2.asl-p-cont .asl-panel-box .asl-panel{
+  margin-top: 0px;
+}
+
+body #asl-storelocator.asl-p-cont .store-locator .agile-modal-dialog{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+body #asl-storelocator.asl-p-cont .store-locator #asl-geolocation-agile-modal .agile-modal-content{
+  position: relative;
+  top:-30px;
+}
+
+body #asl-storelocator.storelocator-main.asl-p-cont .store-locator .agile-modal-backdrop-in{
+  background-color: #000;
+}
+
+body #asl-storelocator.asl-p-cont .store-locator .agile-modal-backdrop-in{
+  opacity: .7;
+}
+
+body #asl-storelocator.asl-p-cont button.close-directions.close[aria-label="Close"] > span{
+  color: #222;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+
+body #asl-storelocator.storelocator-main.asl-p-cont .categories-panel{
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 25px;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .round-box {
+  background-color: transparent;
+  color: #fff;
+  border: 0;
+  border-bottom: 2px solid #555;
+  border-radius: 0;
+  width: 100%;
+  height: 150px;
+  float: left;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  transition: all .3s ease;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .round-box:hover{
+  border-bottom: 2px solid #fdb924;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .round-box .iner-box{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .round-box .box-icon{
+  position: relative;
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  margin: 0;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .round-box .box-icon span{
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body #asl-storelocator.storelocator-main.asl-p-cont .categories-panel .round-box .cat-name::after{
+  position: absolute;
+  bottom: 8px;
+  right: 0;
+  font-size: 17px;
+  color: #ccc;
+  text-align: right;
+  display: inline-block;
+  max-width: 300px;
+}
+/* body #asl-storelocator.storelocator-main.asl-p-cont .categories-panel .round-box:nth-child(1) .cat-name::after{
+  content: 'For all Minn Kota maintenance and servicing';
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .categories-panel .round-box:nth-child(2) .cat-name::after{
+  content: 'Specialise in Minn Kota and Humminbird products & accessories';
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .categories-panel .round-box:nth-child(3) .cat-name::after{
+  content: 'Access to full range of Minn Kota products & accessories';
+} */
+body #asl-storelocator.storelocator-main.asl-p-cont .round-box .cat-name{
+  flex: 1;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .round-box .cat-name span{
+  font-size: 24px;
+  position: relative;
+  width: auto;
+  display: flex;
+  flex: nowrap;
+  justify-content: flex-end;
+  padding-right: 30px;
+  font-weight: 600;
+  transition: all .3s ease;
+  text-align: right;
+}
+
+body #asl-storelocator.storelocator-main.asl-p-cont .round-box .cat-name span::before{
+font-family: 'minnkotamotors' !important;
+content: "\e927";
+position: absolute;
+line-height: 13px;
+vertical-align: middle;
+display: inline-block;
+width: 41px;
+height: 13px;
+top: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+text-align: right;
+transition: -webkit-transform 0.5s cubic-bezier(0.345,0.005,0.07,1);
+transition: transform 0.5s cubic-bezier(0.345,0.005,0.07,1);
+transition: transform 0.5s cubic-bezier(0.345,0.005,0.07,1),-webkit-transform 0.5s cubic-bezier(0.345,0.005,0.07,1);
+font-weight: 100;
+font-size: 1.3rem;
+opacity: 1;
+}
+
+
+body #asl-storelocator.storelocator-main.asl-p-cont .round-box .cat-name span span{
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  left: 10px;
+  top: 0px;
+  height: 32px;
+  background: #222;
+  border: #fdb924 solid 2px;
+  padding: 4px;
+  padding-right: 4px;
+  display: block;
+  z-index: 2;
+}
+
+body #asl-storelocator.storelocator-main.asl-p-cont .round-box .cat-name span span::before{
+  display: none;
+}
+
+body #asl-storelocator.storelocator-main.asl-p-cont .round-box:hover .cat-name span{
+  color: #fdb924;
+}
+
+.page-id-83602 .wpb_column,
+.page-id-83602 .wpb_column .uncol,
+.page-id-83602 .wpb_column .uncol .uncell,
+.page-id-83602 .wpb_column .uncol .uncell .uncont,
+.page-id-83602 .wpb_column .uncol .uncell .uncont, .uncode_text_column,
+.page-id-83602 .wpb_column .uncol .uncell .uncont, .uncode_text_column #asl-storelocator,
+.page-id-83602 .wpb_column .uncol .uncell .uncont, .uncode_text_column #asl-storelocator .row,
+.page-id-83602 .wpb_column .uncol .uncell .uncont, .uncode_text_column #asl-storelocator .row .asl-map
+{
+  height: 100%;
+}
+
+body #asl-storelocator.asl-p-cont input#auto-complete-search {
+  border: solid 3px #fdb924;
+  background-color: #303133 !important;
+  font-size: 22px;
+  color: #ccc;
+}
+
+body #asl-storelocator.asl-p-cont input#auto-complete-search:focus{
+  border: solid 3px #fdb924 !important;
+}
+
+body #asl-storelocator.storelocator-main.asl-p-cont .asl-map .search_filter.inside-map p span i::before{
+  position: relative;
+  top:-4px;
+}
+
+body #asl-storelocator.storelocator-main.asl-p-cont .asl-map .search_filter.inside-map p span i{
+  color: #303133;
+  font-size: 31px;
+}
+
+
+body #asl-storelocator.asl-p-cont .infoBox .info-addr .glyphicon{
+  font-size: 13px;
+}
+
+body #asl-storelocator.asl-p-cont.storelocator-main .panel-cont .item .p-title{
+  font-weight: 700;
+    font-size: 20px;
+    color: #222;
+}
+
+body #asl-storelocator.asl-p-cont.container.asl-template-2 .panel-inner p.p-area:first-of-type{
+  margin-bottom: 15px;
+}
+
+body .asl-p-cont .icon-left-open:before {
+  position: relative;
+  top: -2px;
+  left: -1px;
+}
+
+body #asl-storelocator.asl-p-cont .Num_of_store .icon, #asl-storelocator.asl-p-cont .cats-title .icon {
+  width: auto;
+}
+
+body #asl-storelocator.asl-p-cont .Num_of_store .asl-cat-name,
+body #asl-storelocator.asl-p-cont .Num_of_store .asl-cat-name .sele-cat,
+body #asl-storelocator.asl-p-cont .Num_of_store .asl-cat-name .count-result,
+body #asl-storelocator.asl-p-cont .Num_of_store .back-button,
+body #asl-storelocator.asl-p-cont .Num_of_store i{
+  font-size: 18px;
+  font-weight: 700 !important;
+  color: #333 !important;
+  border-color: #333 !important;
+  border-width: 2px !important;
+}
+
+body #asl-storelocator.asl-p-cont.container.storelocator-main.asl-template-2 .item a{
+  font-weight: 400 !important;
+  transition: all .3s ease;
+}
+
+body #asl-storelocator.storelocator-main.asl-p-cont .cats-title span.back-button i{
+  border-color: #333 !important;
+  border-width: 2px !important;
+}
+body #asl-storelocator.storelocator-main.asl-p-cont .cats-title span.back-button i:before{
+  position: relative !important;
+  top: -2px !important;
+  left: -1px !important;
+}
+
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media only screen and (max-width: 960px) {
+  body #asl-storelocator.storelocator-main.asl-p-cont .round-box .cat-name span{
+    font-size: 18px;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 569px) {
+   
+    body #asl-storelocator.storelocator-main.asl-p-cont .categories-panel{
+        padding-right: 0px!important;
+    }
+    .asl-p-cont .row {
+        margin-left: 0!important;
+        margin-right: 0 !important;
+    }
+}

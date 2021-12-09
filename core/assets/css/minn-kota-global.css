@@ -1,0 +1,117 @@
+/*
+----------------------------------------------------------
+
+#GLOBAL
+
+----------------------------------------------------------
+*/
+
+html,body{
+    font-family: industry,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background: #333132;
+}
+
+html{
+    font-size: 14px;
+}
+
+
+select {
+    background-color: #303133 !important;
+}
+
+.visible-xs{
+    display: none !important;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: initial;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 72px;
+    line-height: 1;
+    letter-spacing: 9px;
+    font-weight: 900;
+    font-style: normal;
+}
+h2{
+    font-size: 64px;
+    line-height: 1.066;
+    letter-spacing: 6px;
+    font-weight: 900;
+    font-style: normal;
+}
+h3{
+    font-size: 50px;
+    line-height: 1.12;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-style: normal;
+}
+h4{
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-style: normal;
+}
+h5{
+    font-size: 32px;
+    line-height: 1.13;
+    letter-spacing: 4.5px;
+    font-weight: 700;
+    font-style: normal;
+}
+h6{
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+a, a:hover, a:focus, a:active {
+    outline: none;
+    color: #3a3638;
+    text-decoration: none;
+}
+  
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+  }
+
+
+
+  .i-pilot{
+      text-transform: initial !important;
+  }
+
+
+  .lines,
+  .lines::before,
+  .lines::after{
+      background: #fff !important;
+  }

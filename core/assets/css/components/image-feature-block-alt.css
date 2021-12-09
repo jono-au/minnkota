@@ -1,0 +1,137 @@
+/* COMPONENT - IMAGE FEATURE BLOCK ALT */
+.mk-component-image-feature-block-alt .wpb_row{
+    position: relative;
+}
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:first-of-type{
+    position: relative;
+}
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:first-of-type .uncont .vc_custom_heading_wrap{
+    width: 100%;
+    text-align: left;
+}
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:first-of-type .uncont .vc_custom_heading_wrap h2{
+    display: inline-block;
+    text-align: right;
+    padding-right: 15px;
+    width: 90%;
+    margin-right: 0;
+    padding: 0 0 8px 15px;
+    font-size: 50px;
+    background: linear-gradient(-180deg, #333132 0%, #333132 100%);
+    padding-top: 46px;
+    color: #fff;
+    letter-spacing: 5px;
+    line-height: 1.07;
+    font-weight: 900;
+    font-style: normal;
+    float: left;
+}
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:first-of-type .uncont .uncode-single-media {
+    margin-top: 0px;
+}
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncell{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncont{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    padding: 32px 10px 32px 18px;
+    background: #333132;
+    height: auto;
+
+}
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncont .vc_custom_heading_wrap {
+    width: 100%;
+    text-align: left;
+}
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncont .vc_custom_heading_wrap h2{
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 6px;
+    color: #E6E7E8;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    text-transform: none;
+}
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncont .vc_custom_heading_wrap h2::before{
+    left: 0;
+    right: auto;
+    top: -28px;
+    margin-bottom: 7px;
+    height: 14px;
+    content: " ";
+    display: block;
+    margin-left: 6px;
+    width: 1px;
+    background: #fdb924;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncont .uncode_text_column {
+    width: 100%;
+}
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncont .uncode_text_column p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+} 
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncont .btn-container {
+    width: 100%;
+    text-align: left;
+}
+
+
+/* MEDIA QUERIES */
+
+
+/* DESKTOP - Smaller */
+@media only screen and (max-width: 1200px) {
+    .mk-component-image-feature-block-alt .wpb_row .wpb_column:first-of-type .uncont .vc_custom_heading_wrap h2{
+        font-size: 44px;
+        padding-top: 38px;
+    }
+    .mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncont .vc_custom_heading_wrap h2{
+        font-size: 20px;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 960px) {
+    .mk-component-image-feature-block-alt .wpb_row .wpb_column:first-of-type .uncont .vc_custom_heading_wrap h2{
+        font-size: 34px;
+        padding-top: 34px;
+    }
+    .mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncont .vc_custom_heading_wrap h2{
+        font-size: 18px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 569px) {
+    .mk-component-image-feature-block-alt .wpb_row .wpb_column:first-of-type .uncont .vc_custom_heading_wrap h2{
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    .mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncont,
+    .main-container .row.row-parent:not(.no-h-padding) .column_parent > .uncol > .uncoltable > .uncell > .uncont:not(.col-custom-width), .main-container .row.row-parent:not(.no-h-padding) .column_child > .uncol > .uncoltable > .uncell > .uncont:not(.col-custom-width){
+        padding: 15px !important;
+    }
+}

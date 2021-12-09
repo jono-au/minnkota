@@ -1,0 +1,205 @@
+/* COMPONENT - BLOCKQUOTE */
+.mk-component-text-feature-block .uncont{
+    padding-top: 190px;
+    padding-bottom: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+.mk-component-text-feature-block .uncont::before{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    bottom: 0;
+    left: 0;
+    right: auto;
+    height: 1px;
+    width: 38.0952%;
+    border-top: 1px solid rgba(255,198,47,0.38);
+    transition: -webkit-transform 1s cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 1s cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 1s cubic-bezier(0.345,0.005,0.07,1),-webkit-transform 1s cubic-bezier(0.345,0.005,0.07,1);
+    border-right: 1px solid rgba(255,198,47,0.38);
+    content: " ";
+    position: absolute;
+    display: block;
+    top: 0;
+    animation: component-text-feature-block 2s ease 0s 1 normal forwards;
+}
+@keyframes component-text-feature-block{
+    from{ transform: translateX(-100%);  }
+    to { transform: translateX(0%); }
+}
+.mk-component-text-feature-block .uncont::after{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    position: absolute;
+    content: " ";
+    display: block;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    height: 1px;
+    width: 38.0952%;
+    border-top: 1px solid rgba(255,198,47,0.38);
+    transition: -webkit-transform 1s cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 1s cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 1s cubic-bezier(0.345,0.005,0.07,1),-webkit-transform 1s cubic-bezier(0.345,0.005,0.07,1);
+    animation: component-text-feature-block2 2s ease 0s 1 normal forwards;
+}
+@keyframes component-text-feature-block2{
+    from{ transform: translateX(100%);  }
+    to { transform: translateX(0%); }
+}
+
+.mk-component-text-feature-block .uncont .vc_custom_heading_wrap {
+    width: 100%;
+    margin-bottom: 88px;
+    display: inline-block;
+}
+
+.mk-component-text-feature-block .uncont .vc_custom_heading_wrap h2{
+    width: 100%;
+}
+.mk-component-text-feature-block .uncont .vc_custom_heading_wrap h2 span{
+    font-size: 64px;
+    letter-spacing: 6px;
+    line-height: 1;
+    display: inline-block;
+    max-width: 504px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+}
+
+.mk-component-text-feature-block .uncont .vc_custom_heading_wrap .text-lead{
+    margin-bottom: 83px;
+    max-width: 504px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    position: relative;
+    padding: 0 15px;
+    
+}
+.mk-component-text-feature-block .uncont .vc_custom_heading_wrap .text-lead p{
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 6px;
+    line-height: 1.33;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    animation: component-text-feature-block5 2s ease 2.3s 1 normal forwards;
+    opacity: 0;
+}
+@keyframes component-text-feature-block5{
+    from{ opacity: 0;  }
+    to { opacity: 1; }
+}
+.mk-component-text-feature-block .uncont .vc_custom_heading_wrap .text-lead::before{
+    width: 232px;
+    min-width: 232px;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+    right: calc(100% + 8px);
+    content: " ";
+    height: 1px;
+    border-top: 1px solid #A7A9AC;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: transform 0.6s 0.9s cubic-bezier(0.345,0.005,0.07,1),opacity 0.6s 0.9s cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 0.6s 0.9s cubic-bezier(0.345,0.005,0.07,1),opacity 0.6s 0.9s cubic-bezier(0.345,0.005,0.07,1),-webkit-transform 0.6s 0.9s cubic-bezier(0.345,0.005,0.07,1);
+    animation: component-text-feature-block3 2s ease 1s 1 normal forwards;
+}
+
+@keyframes component-text-feature-block3{
+    from{ transform: translateX(-100%);  }
+    to { transform: translateX(0%); }
+}
+.mk-component-text-feature-block .uncont .vc_custom_heading_wrap .text-lead::after{
+    display: block;
+    width: 232px;
+    min-width: 232px;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+    left: calc(100% + 8px);
+    content: " ";
+    height: 1px;
+    border-top: 1px solid #A7A9AC;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: transform 0.6s 0.9s cubic-bezier(0.345,0.005,0.07,1),opacity 0.6s 0.9s cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 0.6s 0.9s cubic-bezier(0.345,0.005,0.07,1),opacity 0.6s 0.9s cubic-bezier(0.345,0.005,0.07,1),-webkit-transform 0.6s 0.9s cubic-bezier(0.345,0.005,0.07,1);
+    animation: component-text-feature-block4 2s ease 1s 1 normal forwards;
+}
+
+
+
+@keyframes component-text-feature-block4{
+    from{ transform: translateX(100%);  }
+    to { transform: translateX(0%); }
+}
+.mk-component-text-feature-block .uncont .uncode_text_column{
+    width: 100%;
+    margin: 0 !important;
+}
+.mk-component-text-feature-block .uncont .uncode_text_column p{
+    font-size: 15px;
+    max-width: 504px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+/* DESKTOP - Smaller */
+@media only screen and (max-width: 1200px) {
+    .mk-component-text-feature-block .uncont .vc_custom_heading_wrap h2 span{
+        font-size: 52px;
+    }
+    .mk-component-text-feature-block .uncont .vc_custom_heading_wrap .text-lead{
+        margin:0;
+    }
+    .mk-component-text-feature-block .uncont .vc_custom_heading_wrap{
+        margin-bottom: 48px;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 960px) {
+    .mk-component-text-feature-block .uncont .vc_custom_heading_wrap h2 span{
+        font-size: 40px;
+    }
+    .mk-component-text-feature-block .uncont .vc_custom_heading_wrap .text-lead p{
+        font-size: 18px;
+    }
+    .mk-component-text-feature-block .uncont .vc_custom_heading_wrap{
+        margin-bottom: 28px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 569px) {
+    .mk-component-text-feature-block .uncont .vc_custom_heading_wrap h2 span{
+        font-size: 32px;
+    }
+    .mk-component-text-feature-block .uncont .vc_custom_heading_wrap .text-lead p{
+        font-size: 16px;
+    }
+    .mk-component-text-feature-block .uncont .vc_custom_heading_wrap{
+        margin-bottom: 18px;
+    }
+}

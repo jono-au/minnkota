@@ -1,0 +1,115 @@
+/* COMPONENT - MINN KOTA PAGE BANNER TITLE */
+.mk-component-page-banner-title .row-parent{
+    padding: 0;
+    margin: 0;
+    
+}
+.mk-component-page-banner-title .row-parent .uncont{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 75px 135px 96px 240px;
+    min-height: 72px;
+}
+.mk-component-page-banner-title .row-parent .uncont .vc_custom_heading_wrap h2{
+    text-transform: uppercase;
+}
+.mk-component-page-banner-title .row-parent .uncont .vc_custom_heading_wrap h2 span{
+    font-size: 64px;
+    line-height: 0.94;
+    letter-spacing: 8px;
+    text-align: left;
+    font-weight: 900;
+    font-style: normal;
+    text-shadow: 0 2px 19px rgba(0,0,0,0.41);
+    margin-bottom: 0;
+    color: inherit;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+}
+.mk-component-page-banner-title .row-parent .uncont .vc_custom_heading_wrap h2 span::before{
+    top: 0;
+    bottom: 0;
+    width: 290%;
+    content: " ";
+    position: absolute;
+    margin: auto;
+    border-bottom: 1px solid #fdb924;
+    height: 1px;
+    opacity: 0.8;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    animation: mk-component-page-banner-title-1 2s ease 0s 1 normal forwards;
+}
+@keyframes mk-component-page-banner-title-1 {
+    from {transform: translateX(-150%);}
+    to {transform: translateX(-100%);}
+}
+.mk-component-page-banner-title .row-parent .uncont .vc_custom_heading_wrap h2 span::after{
+    bottom: -24px;
+    right: 25%;
+    width: 250%;
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    height: 1px;
+    object-fit: contain;
+    background-color: #a7a9ac;
+   -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    animation: mk-component-page-banner-title-2 2s ease 0s 1 normal forwards;
+
+}
+@keyframes mk-component-page-banner-title-2 {
+    from {right: 0}
+    to {right: 25%;}
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+/* DESKTOP - Smaller */
+@media only screen and (max-width: 1200px) {
+    .mk-component-page-banner-title .row-parent .uncont{
+        padding: 75px 90px 96px 120px;
+    }
+    .mk-component-page-banner-title .row-parent .uncont .vc_custom_heading_wrap h2 span{
+        font-size: 48px;
+        letter-spacing: 6px;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 960px) {
+    .mk-component-page-banner-title .row-parent .uncont{
+        padding: 56px 40px 96px 50px;
+        padding-top: 90px !important;
+    }
+    .mk-component-page-banner-title .row-parent .uncont .vc_custom_heading_wrap h2 span{
+        font-size: 38px;
+        letter-spacing: 5px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 569px) {
+    .mk-component-page-banner-title .row-parent .uncont{
+        padding: 56px 40px 96px 50px;
+        padding-top: 90px !important;
+    }
+    .mk-component-page-banner-title .row-parent .uncont .vc_custom_heading_wrap h2 span{
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+    .mk-component-page-banner-title .row-background .background-wrapper .background-inner{
+        background-position: center left !important;
+    }
+}

@@ -1,0 +1,23 @@
+
+  
+  
+  path {
+    cursor: pointer;
+    fill: #333;
+  }
+  
+  path:hover {
+    fill: #fdb924;
+  }
+  
+svg text{
+  display: none;
+}
+
+  #popper {
+    visibility: hidden;
+    padding: 1em;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, .3);
+  }

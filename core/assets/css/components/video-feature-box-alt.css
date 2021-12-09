@@ -1,0 +1,220 @@
+/* COMPONENT - VIDEO FEATURE BOX ALT */
+.mk-component-video-feature-box-alt .wpb_column{
+    padding: 0 !important;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.mk-component-video-feature-box-alt .uncol{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.mk-component-video-feature-box-alt .uncont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    max-width: 900px;
+    float: right;
+}
+.mk-component-video-feature-box-alt .uncont .vc_custom_heading_wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+}
+.mk-component-video-feature-box-alt .uncont .vc_custom_heading_wrap .heading-text{
+    width: 100%;
+    text-align: left;
+    margin: 0;
+}
+.mk-component-video-feature-box-alt .uncont .vc_custom_heading_wrap  h2{
+    font-size: 64px;
+    line-height: 0.94;
+    letter-spacing: 8px !important;
+    text-align: left;
+    font-weight: 900;
+    font-style: normal;
+    text-shadow: 0 2px 19px rgba(0,0,0,0.41);
+    margin-bottom: 0;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.mk-component-video-feature-box-alt .uncont .vc_custom_heading_wrap  h2::before{
+    width: 300%;
+    bottom: auto;
+    top: .4em;
+    content: " ";
+    position: absolute;
+    right: 100%;
+    margin: auto;
+    border-bottom: 1px solid #fdb924;
+    height: 1px;
+    opacity: 0.8;
+    transition: -webkit-transform 900ms 300ms cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 900ms 300ms cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 900ms 300ms cubic-bezier(0.345,0.005,0.07,1),-webkit-transform 900ms 300ms cubic-bezier(0.345,0.005,0.07,1);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    animation: component-mk-video-feature-box-alt 2s ease 0s 1 normal forwards;
+}
+@keyframes component-mk-video-feature-box-alt{
+    from{ transform: translateX(-100%);  }
+    to { transform: translateX(0%); }
+}
+
+.mk-component-video-feature-box-alt .uncont .uncode_text_column {
+    width: 100%;
+    text-align: left;
+    margin-top: 0 !important;
+}
+.mk-component-video-feature-box-alt .uncont .uncode_text_column p{
+    display: inline-block;
+    margin-top: 23px;
+    align-self: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 4.5px;
+    padding-bottom: 0;
+    position: relative;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    font-weight: 700;
+    font-style: normal;
+}
+.mk-component-video-feature-box-alt .uncont .uncode_text_column p::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 700px;
+    margin: auto;
+    left: 100%;
+    height: 1px;
+    right: -21px;
+    display: inline-block;
+    object-fit: contain;
+    background-color: #a7a9ac;
+    transition: -webkit-transform 900ms 300ms cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 900ms 300ms cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 900ms 300ms cubic-bezier(0.345,0.005,0.07,1),-webkit-transform 900ms 300ms cubic-bezier(0.345,0.005,0.07,1);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+}
+.mk-component-video-feature-box-alt .uncont .icon-box-top{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top:-20px;
+}
+.mk-component-video-feature-box-alt .uncont .icon-box-icon{
+    width: auto;
+    margin: 0;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 145px;
+    width: 145px;
+}
+
+.mk-component-video-feature-box-alt .uncont .icon-box-icon .fa-stack{
+    background: none;
+    border:0;
+    padding: 0;
+    margin: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 0;
+    outline: rgba(253,185,36,0.5) solid thin !important;
+    background-color: rgba(0,0,0,.2) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.mk-component-video-feature-box-alt .uncont .icon-box-icon .fa-stack::before{
+    content: "";
+    display: block;
+    width: 200%;
+    height: 200%;
+    outline: rgba(253,185,36,0.5) solid thin !important;
+    position: absolute;
+    top:-50%;
+    left: -50%;
+    transition: all ease 300ms;
+}
+.mk-component-video-feature-box-alt .uncont .icon-box-icon:hover .fa-stack::before{
+    width: 100%;
+    height: 100%;
+    top:0%;
+    left: 0%;
+}
+.mk-component-video-feature-box-alt .uncont .icon-box-icon:hover .fa-stack{
+    background-color: #fff !important;
+}
+.mk-component-video-feature-box-alt .uncont .icon-box-icon:hover .fa-stack i{
+    color: #000;
+}
+
+.mk-component-video-feature-box-alt .uncont .icon-box-icon .btn-default i{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* MEDIA QUERIES */
+
+/* DESKTOP - Smaller */
+@media only screen and (max-width: 1200px) {
+    .mk-component-video-feature-box-alt .uncont .vc_custom_heading_wrap h2{
+        font-size: 52px;
+    }
+    .mk-component-video-feature-box-alt .uncont .uncode_text_column p{
+        width: 80%;
+        font-size: 17px;
+        text-align: left;
+        margin-top: 5px;
+    }
+    .mk-component-video-feature-box-alt .uncont{
+        max-width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .mk-component-video-feature-box-alt .uncont .icon-box-top{
+        top: -50px;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 960px) {
+    .mk-component-video-feature-box-alt .uncont .vc_custom_heading_wrap h2{
+        font-size: 46px;
+    }
+    .mk-component-video-feature-box-alt .uncont .uncode_text_column p{
+        font-size: 16px;
+        width: 80%;
+    }
+    .mk-component-video-feature-box-alt .uncont{
+        max-width: 100%;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 569px) {
+    .mk-component-video-feature-box-alt .uncont .vc_custom_heading_wrap h2{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,28 @@
+@media only screen and (max-width: 569px) {
+    
+    
+    .mk-videos-page {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    
+    
+ .mk-videos-page .mk-component-text-feature-block .uncont {
+        padding-top: 100px!important;
+        padding-bottom: 50px!important;
+ }
+    
+  .mk-videos-page .row.limit-width.row-parent {
+       padding: 0!important;
+   }
+   
+   .mk-component-icon-tiles .uncont .row-internal {
+        padding-left: 0px;
+        padding-right: 40px;
+   }
+    
+    .uncode_text_column.mk-vd-list {
+    margin-top: -30px!important;
+    margin-bottom: 30px!important;
+}
+}

@@ -1,0 +1,34 @@
+@media only screen and (max-width: 569px) {
+    
+    
+    #mk-bg-hd .background-inner{
+        background-position: left center!important;
+    }
+    
+    
+   #mk-buying-guides-header-txt > .row.full-width.row-parent,
+   #mk-buying-guides-trolling-motors > .row.full-width.row-parent,
+   #mk-buying-guides-battery-chargers > .row.full-width.row-parent{
+       padding:0!important;
+   }
+    
+    
+    #mk-buying-guides-txt {
+        padding: 30px 0px!important;
+    }
+    
+    #mk-buying-guides-header-txt{
+         padding: 30px 0px!important;
+         margin-bottom: 0!important;
+    }
+ 
+    #mk-buying-guides-shallow-anchors h2{
+        text-align: left;
+    }
+   #mk-buying-guides-shallow-anchors .single-wrapper{
+       max-width: 80%!important;
+   }
+
+    
+    
+}

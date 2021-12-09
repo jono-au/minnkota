@@ -1,0 +1,206 @@
+
+/*
+----------------------------------------------------------
+
+#FONTS
+
+----------------------------------------------------------
+*/
+
+@font-face {
+    font-family: 'minnkotamotors';
+    src: url('../fonts/minnkotamotors.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/minnkotamotors.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/minnkotamotors.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/minnkotamotors.svg#minnkotamotors') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal
+  }
+
+
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'minnkotamotors' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-email-icon:before,
+.email-btn a:before {
+    content: "\e900"
+}
+
+.icon-facebook:before,
+.facebook-btn:before {
+    content: "\e901"
+}
+
+.icon-pinterest:before,
+.pinterest-btn:before {
+    content: "\e902"
+}
+
+.icon-twitter:before,
+.twitter-btn:before {
+    content: "\e903"
+}
+
+.icon-email-icon2:before {
+    content: "\e904"
+}
+
+.icon-contact-form:before {
+    content: "\e905"
+}
+
+.icon-add-to-cart:before,
+.button.min-arrow.cart:before,
+.page-checkout .page .min-arrow.cart.checkout-continue:before,
+.button.min-arrow-trans.cart:before,
+.page-checkout .page .min-arrow-trans.cart.checkout-continue:before {
+    content: "\e906"
+}
+
+.icon-icon-cart:before {
+    content: "\e907"
+}
+
+.icon-question-mark:before {
+    content: "\e908"
+}
+
+.icon-icon-plus:before,
+.plp_filters .clear-all-btn .current-search-item li a .icon-icon-close:before,
+.add-to-cart--summary .h7.plus:after {
+    content: "\e909"
+}
+
+.icon-play:before,
+.node-type-jo-blog .page .video-theme-2 .vjs-default-skin .vjs-big-play-button .vjs-icon-placeholder:before,
+.node-type-faq-article .page .video-theme-2 .vjs-default-skin .vjs-big-play-button .vjs-icon-placeholder:before {
+    content: "\e90a"
+}
+
+.icon-right-corner-mark:before,
+.left-corner:before,
+.right-corner:before {
+    content: "\e90b"
+}
+
+.icon-arrow-down:before {
+    content: "\e90c"
+}
+
+.icon-icon-menu-open:before,
+.compare .compare_products-items .products-row .compare_product-item .delete-from-comparison:before,
+.add-to-cart-overlay .wrapper-close a:before {
+    content: "\e90d"
+}
+
+.icon-icon-menu:before {
+    content: "\e90e"
+}
+
+.icon-icon-search:before,
+.full-bg-page.no-results .search-box form .views-submit-button:before {
+    content: "\e90f"
+}
+
+.icon-arrow_thin:before,
+.plp_filters .ux-container .title .icon.icon-icon-light-down:before,
+.plp_filters .ux-container .title .icon.icon-icon-light-up:before,
+.full-bg-page.no-results .left-content:before {
+    content: "\e910"
+}
+
+.icon-arrow-up:before {
+    content: "\e911"
+}
+
+.icon-cta-arrow-right:before,
+.show-more-cta a.open:after {
+    content: "\e912"
+}
+
+.icon-arrow_utlra_thin:before,
+.c001-container .slick-next-custom:before,
+.c001-container .slick-prev-custom:before,
+.view-component-p007 .accessories .accessories-next:before,
+.view-component-p007 .component-p007-container .accessories-next:before,
+.component-p007 .accessories .accessories-next:before,
+.component-p007 .component-p007-container .accessories-next:before,
+.view-component-p007 .accessories .accessories-prev:before,
+.view-component-p007 .component-p007-container .accessories-prev:before,
+.component-p007 .accessories .accessories-prev:before,
+.component-p007 .component-p007-container .accessories-prev:before,
+.view-jo-blog-listing .view-content h2 a.expand:before,
+.view-jo-faq-listing .view-content h2 a.expand:before {
+    content: "\e913"
+}
+
+.icon-instragram-icon-home:before {
+    content: "\e914"
+}
+
+.icon-fat-arrow:before,
+.show-more-cta a:after,
+.product-tile.compare-page>div .product-tile-cart .add-cart-btn-clone .button span.line:before,
+.product-tile.compare-page>div .product-tile-cart .add-cart-btn-clone .page-checkout .page .checkout-continue span.line:before,
+.page-checkout .page .product-tile.compare-page>div .product-tile-cart .add-cart-btn-clone .checkout-continue span.line:before,
+.product-tile>div .compare-now-link .button.secondary:before,
+.product-tile>div .compare-now-link .component-s003 .newsletter-button a:before,
+.component-s003 .newsletter-button .product-tile>div .compare-now-link a:before,
+.product-tile>div .compare-now-link .page-checkout .page .secondary.checkout-continue:before,
+.page-checkout .page .product-tile>div .compare-now-link .secondary.checkout-continue:before,
+.button.primary:before,
+.page-checkout .page .checkout-continue:before,
+.button.secondary:before,
+.component-s003 .newsletter-button a:before,
+.page-checkout .page .secondary.checkout-continue:before,
+.button.secondary.borderless:before,
+.component-s003 .newsletter-button a.borderless:before,
+.button.cta:before,
+.button.ctaLight:before,
+.view-jo-faq-listing .item-list .pager .pager-next:before,
+.view-jo-blog-listing .item-list .pager .pager-next:before,
+.button.min-arrow:before,
+.button.min-arrow-trans:before,
+.pdp-p003 .pdp-quantity .selectric:after,
+.pdp-p003 .pdp-options-controlers .selectric:after,
+.cart-product-tile .product-delivery .customChangeSTS:before,
+.cart-product-tile .button-remove:before,
+.cart-product-tile .button-change a:before,
+.add-to-cart--summary .dropdown-shipping .selectric .label:after,
+.node-type-jo-blog .page .content .back a:before,
+.node-type-faq-article .page .content .back a:before,
+.component-p014 .order-link a:before,
+#ship-to-store-modal #ship-to-store-form .distance .miles:before,
+.view-jo-faq-listing .item-list .pager .pager-next a:before,
+.view-jo-blog-listing .item-list .pager .pager-next a:before,
+.view-jo-faq-listing .item-list .pager .pager-previous a:after,
+.view-jo-blog-listing .item-list .pager .pager-previous a:after,
+.blog-filters .views-exposed-form .views-exposed-widgets>div .selectric-wrapper .selectric .button:before,
+.blog-filters .views-exposed-form .views-exposed-widgets>div .selectric-wrapper .selectric .page-checkout .page .checkout-continue:before,
+.page-checkout .page .blog-filters .views-exposed-form .views-exposed-widgets>div .selectric-wrapper .selectric .checkout-continue:before,
+.view-jo-faq-listing .views-exposed-form .views-exposed-widgets>div .selectric-wrapper .selectric .button:before,
+.view-jo-faq-listing .views-exposed-form .views-exposed-widgets>div .selectric-wrapper .selectric .page-checkout .page .checkout-continue:before,
+.page-checkout .page .view-jo-faq-listing .views-exposed-form .views-exposed-widgets>div .selectric-wrapper .selectric .checkout-continue:before,
+.icon-back-to-top:before {
+    content: "\e927"
+}
+
+.icon-faqs-expand:before,
+.component-c013 .section-padding ul.faqs-list li a.question span.icon-icon-light-down:before,
+.component-c013 .section-padding ul.faqs-list li a.question span.icon-icon-light-down.icon-icon-light-up:before {
+    content: "\e915"
+}
+
+
+
+

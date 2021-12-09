@@ -1,0 +1,355 @@
+/*
+----------------------------------------------------------
+
+#Buttons
+
+----------------------------------------------------------
+*/
+
+.btn,
+.btn-link,
+.rev-btn,
+.t-entry-readmore .btn {
+    overflow: visible;
+    padding: 12px 22px 10px 25px !important;
+    position: relative;
+    z-index: 1;
+    border: none;
+    background-color: transparent !important;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    line-height: 28px !important;
+}
+.btn:hover,
+.btn-link:hover,
+.rev-btn:hover,
+.t-entry-readmore .btn:hover {
+    background-color: transparent !important;
+}
+.btn:hover:before,
+.btn-link:hover:before,
+.rev-btn:hover:before,
+.t-entry-readmore .btn:hover:before {
+    -webkit-transform: translateX(4.5px) scaleX(1.04);
+    transform: translateX(4.5px) scaleX(1.04);
+}
+.btn:hover .text,
+.btn-link:hover .text,
+.rev-btn:hover .text,
+.t-entry-readmore .btn:hover .text{
+    -webkit-transform: translateX(2.5px) scaleX(1.04);
+    transform: translateX(2.5px) scaleX(1.04);
+}
+.btn::before,
+.btn-link::before,
+.rev-btn::before,
+.t-entry-readmore .btn::before{
+    font-family: 'minnkotamotors' !important;
+    content: "\e927";
+    position: absolute;
+    line-height: 13px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 41px;
+    z-index: -1;
+    height: 13px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: right;
+    transition: -webkit-transform 0.5s cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 0.5s cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 0.5s cubic-bezier(0.345,0.005,0.07,1),-webkit-transform 0.5s cubic-bezier(0.345,0.005,0.07,1);
+    font-weight: 100;
+    font-size: 1.3rem;
+    opacity: 1;
+}
+.btn .text,
+.btn-link .text,
+.rev-btn .text,
+.t-entry-readmore .btn .text{
+    color: inherit;
+    display: inline-block;
+    font-size: 15px;
+    transition: -webkit-transform 0.5s cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 0.5s cubic-bezier(0.345,0.005,0.07,1);
+    transition: transform 0.5s cubic-bezier(0.345,0.005,0.07,1),-webkit-transform 0.5s cubic-bezier(0.345,0.005,0.07,1);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    letter-spacing: 4px;
+    font-weight: 900;
+    position: relative;
+    top:-2px;
+}
+.btn .borders,
+.btn-link .borders,
+.rev-btn .borders,
+.t-entry-readmore .btn .borders{
+    border-color: #fdb924;
+    border: 2px solid;
+    border-right: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 41px);
+    z-index: -2;
+}
+.btn .borders::before,
+.btn-link .borders::before,
+.rev-btn .borders::before,
+.t-entry-readmore .btn .borders::before{
+    top: 0;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border-right: 2px solid;
+    border-color: inherit;
+    right: 0;
+    height: 8px;
+    width: 0;
+}
+.btn .borders::after,
+.btn-link .borders::after,
+.rev-btn .borders::after,
+.t-entry-readmore .btn .borders::after{
+    bottom: 0;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border-right: 2px solid;
+    border-color: inherit;
+    right: 0;
+    height: 8px;
+    width: 0;
+}
+
+.btn.btn-color-yellow,
+.btn-link.btn-color-yellow{
+    color: #fdb924 !important;
+}
+.btn.btn-color-yellow .text,
+.btn-link.btn-color-yellow .text{
+    color: #fff;
+}
+.btn.btn-color-yellow:hover .text,
+.btn-link.btn-color-yellow:hover .text{
+    color: #fdb924;
+}
+
+.btn.btn-color-teal,
+.btn-link.btn-color-teal{
+    color: #01b4ad !important;
+}
+.btn.btn-color-teal .text,
+.btn-link.btn-color-teal .text{
+    color: #fff;
+}
+.btn.btn-color-teal:hover .text,
+.btn-link.btn-color-teal:hover .text{
+    color: #01b4ad;
+}
+
+.btn.btn-color-jevc,
+.btn-link.btn-color-jevc{
+    color: #000 !important;
+}
+
+.btn.btn-color-xsdn,
+.btn-link.btn-color-xsdn{
+    color: #fff !important;
+}
+
+
+/* revolution slider btn style*/
+.rev-btn .borders,
+.t-entry-readmore .btn .borders{
+    border-color: #fdb924 !important;
+}
+.rev-btn .text,
+.t-entry-readmore .btn .text{
+    color: #fff !important;
+}
+.rev-btn:hover .text,
+.t-entry-readmore .btn:hover .text{
+    color: #fdb924 !important;
+}
+.rev-btn::before,
+.t-entry-readmore .btn::before{
+    color: #fdb924 !important;
+}
+
+
+
+/* Paragraph links */
+p a,
+a.link{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 0.1em 0.2em;
+    background-image: linear-gradient(#fdb924 0%,#fdb924 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    transition: background 200ms ease-out !important;
+    outline: none;
+}
+
+p a:hover,
+a.link:hover{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 0.1em 0.2em;
+    background-image: linear-gradient(#fdb924 0%,#fdb924 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 100%;
+}
+
+body.textual-accent-color .post-content > div p:not(.entry-small):not(.panel-title):not(.t-entry-member-social) a:not(.btn),
+body.textual-accent-color .post-content p:not(.entry-small):not(.panel-title):not(.t-entry-member-social) a:not(.btn-text-skin):hover:not(.btn){
+    color: inherit !important;
+}
+/* revolution slider btn style*/
+
+
+
+.btn-inline{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-style: normal;
+    font-size: 14px;
+    width: auto;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    text-transform: initial;
+}
+.btn-inline::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 55%;
+    background: transparent;
+    transition: all .1s ease-in-out;
+    color: inherit;
+}
+.btn-inline:hover:before{
+    width: 100%;
+}
+
+
+.btn-alt {
+    color: #fdb924 !important;
+}
+.btn-alt::before{
+    right:auto;
+    left: 0;
+    text-align: left;
+    background: transparent;
+    border: solid 2px #fdb924;
+    color: inherit;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    transition: all .3s ease;
+    padding-left: 3px;
+
+}
+.btn-alt .text{
+    letter-spacing: 4px;
+    color: inherit;
+    padding-left: 20px;
+    color: inherit !important;
+
+}
+.btn-alt .borders{
+    display: none;
+}
+.btn-alt:hover:before{
+    transform: none !important;
+    background-color: #fdb924;
+    border-color: #000;
+    color: #000;
+}
+.btn-alt:hover .text{
+    transform: none !important;
+}
+
+.link{
+    text-transform: initial;
+}
+
+
+
+
+
+/* Find A Dealer Btn */
+.find-a-dealer{
+    margin-top: 20px !important;
+    margin-bottom: 50px !important;
+    width: 100%;
+    max-width: inherit;
+    margin: 5px 0;
+    text-transform: uppercase;
+    min-width: 200px;
+    padding: 9px 22px 9px 70px !important;
+    line-height: 32px !important;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200%;
+    background-position: 100% 0;
+    transition-duration: 0.8s;
+    transition-property: background-position;
+    transition-timing-function: cubic-bezier(0.46,0.26,0.43,0.99);
+    color: #000;
+    background-image: #fdb924;
+    border: solid 2px #000 !important;
+    background-image: linear-gradient(to right,#000 0%,#000 49%,#fdb924 49%,#fdb924 100%,#fdb924 100%);
+}
+.find-a-dealer:hover{
+    background-position: 0% 0;
+}
+.find-a-dealer .text{
+    color: #000 !important;
+    position: relative;
+    letter-spacing: 0px;
+    top:1px;
+    width: 100%;
+}
+.find-a-dealer:hover .text{
+    color: #fdb924 !important;
+}
+.find-a-dealer::before{
+    border-color: #000;
+    color: #000;
+    left: -2px;
+    width: 54px;
+    height: 54px;
+    z-index: 4;
+}
+

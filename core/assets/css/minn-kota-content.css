@@ -1,0 +1,1936 @@
+
+/*
+----------------------------------------------------------
+
+#CONTENT
+
+----------------------------------------------------------
+*/
+
+
+
+
+
+.no-margin-botoom{
+    margin-bottom: 0px !important;
+}
+
+
+.post-content .vc_row{
+    margin-bottom: 60px;
+}
+.home .post-content .vc_row:first-of-type{
+    margin-bottom: 0px;
+}
+.page .post-content .vc_row:first-of-type{
+    margin-bottom: 0px;
+}
+.post-content .vc_row:last-of-type{
+    margin-bottom: 0px;
+}
+
+.uncode_text_column{
+    height: auto;
+}
+
+
+.isotope-container .tmb {
+    padding: 3px;
+}
+.isotope-container .tmb .t-overlay-text .t-entry-title{
+    position: relative;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 4.5px;
+    line-height: 1.33;
+    color: #E6E7E8;
+    margin-bottom: 40px;
+    transition: all ease 800ms;
+}
+.isotope-container .tmb .t-overlay-text .t-entry-title::after{
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    transition: -webkit-transform 200ms 0ms linear;
+    transition: transform 200ms 0ms linear;
+    transition: transform 200ms 0ms linear,-webkit-transform 200ms 0ms linear;
+    -webkit-transform: translateX(110%);
+    transform: translateX(110%);
+    border-bottom: 1px solid rgba(255,198,47,0.4); 
+}
+@keyframes tmbtitleborder {
+    from {transform: translateX(110%);}
+    to {transform: translateX(0%);}
+}
+
+.isotope-container .tmb .t-inside:hover .t-overlay-text .t-entry-title::after{
+    animation: tmbtitleborder 1.5s ease 0s 1 normal forwards;
+    -webkit-animation: tmbtitleborder 1.5s ease 0s 1 normal forwards;
+}
+.isotope-container .tmb .t-overlay-text .t-entry-excerpt{
+    margin-bottom: 20px;
+    transition: all ease 800ms;
+    transition-delay: 500ms;
+    opacity: 0;
+}
+.isotope-container .tmb .t-inside:hover .t-entry-excerpt{
+    opacity: 1;
+}
+.isotope-container .tmb .t-overlay-text .t-entry-excerpt p{
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    color: #fff;
+    text-align: left;
+}
+.isotope-container .tmb .t-entry-readmore .btn-alt .text,
+.isotope-container .tmb .t-entry-readmore .btn-alt::before{
+    color: #fdb924 !important;
+}
+.isotope-container .tmb .t-entry-readmore .btn-alt:hover .text,
+.isotope-container .tmb .t-entry-readmore .btn-alt:hover:before{
+    color: #000 !important;
+}
+.isotope-container .tmb .t-inside .t-entry-readmore{
+    transition: all ease 800ms;
+    transition-delay: 800ms;
+    opacity: 0;
+}
+.isotope-container .tmb .t-inside:hover .t-entry-readmore{
+    opacity: 1;
+}
+.isotope-container .tmb .t-entry-visual-overlay{
+    padding: 20px;
+}
+.isotope-container .tmb .t-overlay-content{
+    padding: 20px;
+}
+
+.isotope-container .tmb .t-overlay-content .title-clone{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 40px;
+    opacity: 1;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    text-shadow: 0 2px 19px rgba(0,0,0,0.3);
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    color: #e6e7e8 !important;
+    text-align: left;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.isotope-container .tmb .t-inside:hover .t-overlay-content .title-clone{
+    opacity: 0;
+}
+
+.page-id-83635 .isotope-container .tmb .t-overlay-content .title-clone{
+    left: 20px;
+    text-shadow: 0px 5px 9px rgba(0, 0, 0, 0.48);
+    background: rgba(0,0,0,.4);
+    font-size: 26px;
+    padding: 4px 9px;
+    margin-right: 20px;
+}
+
+
+
+.pro-team-category .mk-component-page-banner-title-alt .uncont{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.icon-box-icon a{
+    opacity: 1;
+    transition: all ease .3s;
+}
+.icon-box-icon:hover a{
+    opacity: .5;
+}
+
+
+
+
+.page-wrapper .header-wrapper .background-wrapper .background-inner::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(vignette.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+/*
+----------------------------------------------------------
+
+#PRO TEAM LISTING
+
+----------------------------------------------------------
+*/
+
+
+
+.pro-team-listing .isotope-filters .menu-smart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between !important;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.pro-team-listing .isotope-filters .menu-smart li:first-child{
+    display: none !important;
+}
+
+.pro-team-listing .isotope-filters .limit-width .menu-smart li:nth-child(2){
+    display: inline-block !important;
+}
+
+.pro-team-listing .isotope-filters .menu-smart li{
+    width: 32%;
+    min-width: 32%;
+    max-width: 32%;
+    flex: 32%;
+    margin: 0 !important;
+}
+.pro-team-listing .isotope-filters .limit-width .menu-smart li a{
+    font-size: 32px !important;
+    font-weight: 400;
+    position: relative;
+}
+.pro-team-listing .isotope-filters .menu-smart li a::before{
+    content: 'Pro Team';
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 300px;
+    margin-left: -150px;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 100;
+    color: #fdb924;
+    opacity: .25;
+}
+.pro-team-listing .isotope-filters .menu-smart li:nth-child(2) a::before{
+    content: 'View All';
+}
+
+.pro-team-listing .isotope-filters .limit-width .menu-smart li a.active{
+    color: #fff !important;
+}
+
+.pro-team-listing .isotope-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    padding:0;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto !important;
+}
+.pro-team-listing .isotope-container .tmb{
+    width: 14% !important;
+    min-width: 14%;
+    max-width: 14%;
+    flex:14%;
+    margin: 0;
+    padding:0;
+    border-radius: none;
+    position: relative !important;
+    top:0 !important;
+    left: 0 !important;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside{
+    padding: 8px;
+    padding-bottom: 0;
+    max-height: 320px;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside .title-clone{
+    background-color: #333;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 22px;
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px #444;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside .t-background-cover{
+    /* border: solid 2px #444; */
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside .t-overlay-text{
+    padding: 0 !important;
+}
+
+
+.pro-team-listing .isotope-container .tmb .t-inside .t-entry-text{
+    background-color: #333333;
+    text-align: left;
+    position: relative;
+    top: -35px;
+    width: auto;
+    display: inline-block;
+    border: solid 2px #fdb924;
+    padding: 5px;
+    
+}
+.pro-team-listing .isotope-container .tmb .t-inside .t-entry-text a{
+    font-weight: 300;
+    font-size: 28px;
+    color: #fff;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside .t-entry-text .t-entry-text-tc{
+    padding:  0;
+}
+
+.pro-team-listing .isotope-container .tmb .t-inside .t-entry-excerpt,
+.pro-team-listing .isotope-container .tmb .t-inside .t-entry-title{
+    background-color: rgba(51,51,51,.85);
+    padding: 10px;
+    font-weight: 400;
+}
+
+
+.pro-guide-form input[type="submit"] {
+    background-color: #fdb924;
+}
+
+
+
+
+@media only screen and (max-width: 1500px) {
+    .pro-team-listing .isotope-container .tmb{
+        width: 25% !important;
+        min-width: 25%;
+        max-width: 25%;
+        flex:25%;
+    }
+}
+
+
+@media only screen and (max-width: 960px) {
+    .pro-team-listing .isotope-container .tmb{
+        width: 50% !important;
+        min-width: 50%;
+        max-width: 50%;
+        flex:50%;
+    }
+    .pro-team-listing .isotope-container .tmb .t-inside .title-clone{
+        font-size: 32px;
+    }
+    .pro-team-listing .isotope-filters .menu-smart{
+        margin-bottom: 10px;
+    }
+    .pro-team-listing .isotope-filters .menu-smart li{
+        width: 49%;
+        min-width: 49%;
+        max-width: 49%;
+        flex: 49%;
+        margin: 0 !important;
+        margin-bottom: 25px !important;
+    }
+    .pro-team-listing .isotope-filters .menu-smart li a::before{
+        font-size: 50px;
+        top:-20px
+    }
+}
+
+
+@media only screen and (max-width: 569px) {
+    .pro-team-listing .isotope-container .tmb{
+        width: 100% !important;
+        min-width: 100%;
+        max-width: 100%;
+        flex:100%;
+    }
+    .pro-team-listing .isotope-container .tmb .t-inside .title-clone{
+        font-size: 26px;
+    }
+    .pro-team-listing .isotope-filters .menu-smart{
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .pro-team-listing .isotope-filters .menu-smart li{
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        flex: 100%;
+        margin: 0 !important;
+        margin-bottom: 25px !important;
+    }
+    .pro-team-listing .isotope-filters .menu-smart li a::before{
+        font-size: 40px;
+    }
+
+
+    .mk-one-boat-network .background-wrapper .background-inner{
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+    
+    
+    
+    /*
+----------------------------------------------------------
+
+#HOMEPAGE
+
+----------------------------------------------------------
+*/
+
+
+/* !display topbar*/
+
+    body.menu-mobile-centered .mobile-hidden:not(.social-icon):not(.menu-social):not(.menu-icons) {
+        display: none !important;
+    }
+
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+/*
+----------------------------------------------------------
+
+#PRO TEAM SINGLE
+
+----------------------------------------------------------
+*/
+.mk-component-proteam-about{
+    /* border: dotted pink 1px !important; */
+}
+
+.mk-pro-setup{
+    /* border: double #555 1px !important; */
+}
+
+.mk-pro-info{
+    /* border: dotted pink 1px !important; */
+}
+
+.mk-pro-info .owl-carousel-wrapper .owl-carousel{
+    padding: 0;
+    margin: 0;
+}
+
+.mk-pro-info .owl-carousel-wrapper .owl-carousel .tmb .t-entry-text a{
+    color: #fff !important;
+}
+
+#powerTip {
+    cursor: pointer !important;
+    background-color: #fff !important;
+    border-radius: 0px !important;
+    color: #222 !important;
+    text-transform: uppercase !important;
+    padding: 15px !important;
+    border: solid 2px #fdb924 !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+#powerTip::before{
+    display: none !important;
+}
+
+.mk-pro-team-profile-pic .uncode-single-media-wrapper{
+    width: 200px;
+    float: right;
+}
+.mk-pro-team-profile-pic .uncode-single-media-wrapper img{
+    object-fit: contain;
+    max-width: 100%;
+}
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+    /* If Image on right side, reverse order on mobile */
+    .mobile-row-reverse .wpb_row{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+
+
+/*
+----------------------------------------------------------
+
+#PRO GUIDES
+
+----------------------------------------------------------
+*/
+.pro-guide-form .gform_wrapper input{
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+.pro-guide-form .gform_wrapper label{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+----------------------------------------------------------
+
+#DESKTOP
+
+----------------------------------------------------------
+*/
+
+
+
+
+      /*
+----------------------------------------------------------
+
+SINGLE PRODUCT 
+
+----------------------------------------------------------
+*/ 
+    
+.panel-title > a > span:after {
+    top: 10%;
+}
+
+.single-product .wpb_accordion .panel .panel-heading .panel-title span::after {
+    top: 0!important;
+}
+    
+
+
+
+
+
+
+
+
+
+/*
+----------------------------------------------------------
+
+#TABLET RESPONSIVE
+
+----------------------------------------------------------
+*/
+
+
+
+@media only screen and (min-width: 570px) and (max-width: 960px) {
+    
+    
+    .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .uncode_text_column {
+        max-width: none!important;
+        float: none!important;
+        text-align: center!important;
+    }
+    
+    
+    .mk-component-page-banner-title-alt .row.full-width.row-parent {
+            padding: 125px 55px!important;
+    }
+    
+    
+    .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .uncode_text_column {
+        padding-left: 0!important;
+    }
+    
+    .mk-component-blockquote .uncont {
+        padding: 0 5%!important;
+    }
+    
+    .mk-component-blockquote .uncont::before {
+        top: -40px;
+    }
+    
+    .mk-component-blockquote .uncont::after {
+        bottom: -40px;
+    }
+    
+    
+    .mk-component-page-banner-title .row-parent .uncont {
+        padding: 125px 55px!important;
+    }
+    
+    
+    body.menu-mobile-centered .main-menu-container .menu-horizontal .menu-horizontal-inner ul.menu-smart li.menu-item > a, body.menu-mobile-centered .vmenu-container .vmenu-row-wrapper .vmenu-wrap-cell ul.menu-smart li.menu-item > a, body.menu-mobile-centered .overlay-menu .navbar-main .menu-sidebar-inner ul.menu-smart li.menu-item > a, body.menu-mobile-centered .main-menu-container .menu-horizontal .menu-horizontal-inner ul.menu-smart li.menu-item-link > a, body.menu-mobile-centered .vmenu-container .vmenu-row-wrapper .vmenu-wrap-cell ul.menu-smart li.menu-item-link > a, body.menu-mobile-centered .overlay-menu .navbar-main .menu-sidebar-inner ul.menu-smart li.menu-item-link > a {
+        font-size: 3.5vw!important;
+    }
+    
+    
+    .mk-component-page-banner-title-alt .background-wrapper .background-inner{
+        background-position: left center!important;
+    }
+    
+    
+    
+    
+    
+   
+   /********************* HOMEPAGE ***************************/
+   
+   
+   
+   .mk-one-boat-network .background-wrapper .background-inner {
+       background-position: left center!important;
+       background-size: 1100px!important;
+   }
+   
+   
+   .site-footer .wpb_row .wpb_column:first-of-type .uncont .vc_row:nth-child(1) .uncont .uncode-list {
+       justify-content: center!important;
+   }
+   
+   
+   
+   .site-footer .wpb_row .wpb_column:first-of-type .uncont .vc_row:nth-child(1) .uncont .uncode-list a {
+            display: block!important;
+            width: auto!important;
+            min-width: auto!important;
+            margin-right: 15px!important;
+            flex: none!important;
+   
+   }
+   
+   .mk-component-icon-tiles .uncont .row-internal {
+       padding: 0!important;
+   }
+   
+
+   
+      /********************* SHOP PAGE ***************************/
+   
+   
+   .mk-component-page-banner-title .background-wrapper .background-inner {
+       background-position: left center !important;
+   }
+   
+   .rtwpvg-images {
+       width: 85%!important;
+   }
+   
+   
+   
+   
+    /**************** LEARN SHALLOW WATER ANCHORS ***********************/
+    
+    .feature-raptor-takecommand .background-wrapper .background-inner {
+        background-size: 430px!important;
+    }
+   
+   .take-command-txt {
+    padding-left: 0!important;
+}
+   
+   
+    /**************** LEARN RIPTIDE TERROVA ***********************/
+   
+ 
+   
+     .riptide-tr-vd {
+    height: 450px!important;
+}
+   
+   
+   
+   
+      /**************** LEARN ULTREX ***********************/
+   .featured-ultrex .post-content .vc_row {
+       margin-bottom: 60px!important;
+   }
+   
+   
+   .mk-component-hashtag-media .vc_custom_heading_wrap .text-lead p{
+        
+        font-size: 130px!important;
+        letter-spacing: 5px!important;
+   }
+   
+   .mk-component-hashtag-media .vc_custom_heading_wrap .text-lead {
+        top: 0!important; 
+        left: 0!important;
+   }
+   
+   .mk-component-hashtag-media .vc_custom_heading_wrap {
+    padding-top: 70px;
+    padding-bottom: 0px;
+   }
+   
+   
+   .mk-component-hashtag-media .vc_custom_heading_wrap h2 {
+       padding-bottom: 100px!important;
+       font-size: 40px!important;
+   }
+   
+   
+   .featured-ultrex-banner .row.full-width.row-parent {
+       padding: 125px 55px;
+   }
+   
+   .ult-img {
+       margin-top: -150px!important;
+   }
+   
+    .ipilotipilotlink .background-wrapper .background-inner {
+       background-position: center left!important;
+   }
+   
+   
+   
+   /**************** FAQs ***********************/
+   
+   .support-faq .background-wrapper .background-inner {
+       background-position: left center!important;
+   }
+   
+   .panel-title > a > span:after {
+       top: 50%!important;
+   }
+   
+   
+      /**************** DEALER LOCATOR ***********************/
+   
+   .asl-p-cont .row {
+       margin:0!important;
+   }
+   
+   
+   
+   
+   
+   
+    /**************** SINGLE PRODUCT ***********************/
+   
+   
+   .product .panel-title > a > span:after {
+           top: 10%!important;
+   }
+   
+   
+   .single-product .product-tab ul li {
+       margin-left: 20px!important;
+       padding-left: 10px!important;
+   }
+   
+   
+   
+   
+   
+   /**************** BUYING GUIDES ***********************/
+   
+   .mk-component-page-banner-title-alt.learn-buying .background-wrapper .background-inner {
+       background-position: left center!important;
+   }
+   
+   .buying-guides-txt {
+       margin-top: 60px!important;
+   }
+   
+   
+   /**************** TECHNOLOGY  ***********************/
+   
+   #technology-text {
+       margin-top: 60px!important;
+   }
+   
+   .learn-tech-oneboat .background-wrapper .background-inner {
+       background-size: 1000px!important;
+       background-position: left center!important;
+   }
+   
+   
+   
+   
+   /**************** ONE BOAT ***********************/
+   
+   .one-boat-banner .background-wrapper .background-inner {
+        background-position: left center!important;
+        background-size: 1100px!important;
+   }
+   
+
+    .one-boat-communication .background-wrapper .background-inner {
+        background-position: left center!important;
+        background-size: 1100px!important;
+    }
+   
+   
+   
+   
+      /**************** VIDEOS ***********************/
+   
+   .mk-vd-list {
+        margin-top: -20px!important;
+        margin-bottom: 60px;
+   }
+   
+   
+   .mk-videos-page .mk-component-text-feature-block .uncont {
+       padding-top: 130px!important;
+       padding-bottom: 130px!important;
+   }
+   
+   
+   
+    /**************** PROTEAM ***********************/
+   
+   .mk-pro-team-profile-pic .uncode-single-media-wrapper {
+       width: 300px!important;
+   }
+   
+   
+    /**************** CONTACT ***********************/
+   
+   .gform_legacy_markup_wrapper .top_label input.medium, .gform_legacy_markup_wrapper .top_label select.medium {
+       width: 100%!important;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+}
+
+
+
+
+
+   .wpb_accordion .panel .panel-heading .panel-title span::after {
+       top: 50%!important;
+   }
+
+
+
+
+
+
+
+/*
+----------------------------------------------------------
+
+#MOBILE RESPONSIVE
+
+----------------------------------------------------------
+*/
+
+@media only screen and (max-width: 569px) {
+    
+    
+    .mk-component-video-feature-box-alt-2 .wpb_column:first-of-type .uncont .btn-container {
+        top: 20%!important;
+        right: 18%!important;
+    }
+    
+    
+    .mk-component-video-feature-box .btn-container {
+        left: 5%!important;
+    }
+    
+    .mk-component-icon-tiles .uncont .row-internal {
+        padding:0!important;
+    }
+    
+    
+   .mk-component-blockquote .uncont::before {
+       top: -40px!important;
+   }
+   
+   
+     .mk-component-blockquote .uncont::after {
+       bottom: -25px!important;
+   }
+    
+    
+    .mk-components-product-feature-block .wpb_row .wpb_column:first-of-type .uncont img {
+        width: 100%!important;
+    }
+    
+    
+    .mk-component-page-banner-title-alt {
+       padding: 75px 20px!important;
+   }
+   
+
+    .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap h2 {
+        padding: 8px 0!important ;
+    }
+    
+    .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .uncode_text_column {
+        padding-left: 0!important;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+   /*
+----------------------------------------------------------
+
+HOMEPAGE
+
+----------------------------------------------------------
+*/
+   
+   
+   .main-container .row-container .row-parent {
+       padding: 0!important;
+   }
+   
+   .mk-component-minn-kota-about .wpb_row .wpb_column .uncont .vc_custom_heading_wrap h2 {
+       right: 15px!important;
+   }
+   
+   
+   
+   
+ /*add page class homepage*/
+ 
+.uncell,
+.uncont {
+  -webkit-transition-property: none!important;
+-moz-transition-property: none!important;
+-o-transition-property: none!important;
+transition-property: none!important;
+transition-duration: 0s!important;
+}
+   
+   
+.mk-one-boat-network .uncont.no-block-padding.col-custom-width {
+    padding: 36px!important;
+}
+
+
+   .mk-component-fresh-salt .uncont .uncode_text_column {
+        padding-right: 15px;
+        padding-left: 15px;
+   }
+   
+   
+   
+   .homepage .mk-title-1 {
+       padding-left: 0!important;
+   }
+   
+   
+   
+   
+ .homepage .mk-component-minn-kota-about .wpb_row .wpb_column .uncont .uncode_text_column p {
+    margin-top: -350px!important;
+    width: 75vw!important;
+    text-align: right!important;
+    
+ }
+   
+   
+   .mk-component-minn-kota-about .wpb_row .wpb_column .uncont .uncode_text_column::before {
+       width: 0!important;
+   }
+   
+   
+   .mk-title-1 p {
+    font-size: 50px!important;
+}
+   
+   
+   
+   
+   /*
+----------------------------------------------------------
+
+DEALER LOCATOR
+
+----------------------------------------------------------
+*/
+      
+   
+   /*add page class dealerlocator*/
+   .dealerlocator .wpb_accordion .panel .panel-heading .panel-title span::after {
+       top: 50% !important;
+   }
+   
+   .asl-p-cont .row {
+    margin-left: 0!important;
+    margin-right: 0!important;
+   }
+   
+   body #asl-storelocator.storelocator-main.asl-p-cont .categories-panel {
+       padding-right: 0!important;
+       margin-bottom: 50px!important;
+   }
+   
+  
+   
+      /*
+----------------------------------------------------------
+
+SINGLE PRODUCT 
+
+----------------------------------------------------------
+*/
+   
+   .rtwpvg-images {
+        width: 75%!important;
+        padding-bottom: 70px!important;
+   }
+   
+   .single-product .post-body .product .row-inner .col-lg-4 .uncont {
+       padding-left: 15px!important;
+        padding-right: 15px!important;
+   }
+   .product-accessories .uncont .vc_custom_heading_wrap h2 {
+           padding-top: 40px!important;
+   }
+   
+
+   .single-product .product-tab ul li {
+    margin-left: 20px!important;
+    padding-left: 0!important;
+}
+   
+   .panel-title a {
+       padding-right: 15px !important;
+   }
+   
+
+
+.product-accessories .uncont .owl-carousel-wrapper .owl-stage-outer .t-inside {
+    padding: 0!important;
+}
+   
+
+   
+   .rtwpvg-images .rtwpvg-container .rtwpvg-thumbnail-wrapper .rtwpvg-thumbnail-slider .rtwpvg-thumbnail-image {
+       margin: 0!important;
+   }
+   
+   
+   
+   .mk-component-image-tile .uncont {
+       padding: 75px 15px;
+   }
+   
+   
+   .single-product .wpb_accordion .panel .panel-heading .panel-title span::after {
+        top: 4px!important;
+   }
+   
+   
+   .rtwpvg-images .rtwpvg-container .rtwpvg-thumbnail-wrapper .rtwpvg-thumbnail-slider {
+           justify-content: center!important;
+   }
+   
+   
+   
+   .pswp__caption__center {
+    display: none!important;
+}
+   
+   
+   .rtwpvg-images {
+       width: 100%!important;
+   }
+   
+   .rtwpvg-images .rtwpvg-container .rtwpvg-thumbnail-wrapper .rtwpvg-thumbnail-slider {
+      flex-direction: row!important;
+   }
+   
+   .rtwpvg-images.rtwpvg-images-thumbnail-columns-2.rtwpvg-has-product-thumbnail{
+       max-width: 100%!important;
+   }
+   
+
+   .rtwpvg-images .rtwpvg-container {
+       display: block!important;
+   }
+   
+   .rtwpvg-images .rtwpvg-container .rtwpvg-thumbnail-wrapper .rtwpvg-thumbnail-slider .rtwpvg-thumbnail-image {
+    max-width: 10px!important;
+    min-width: 10px!important;
+    width: 10px!important;
+    max-height: 10px!important;
+    min-height: 10px!important;
+    height: 75px!important;
+    border: solid 2px #fdb924!important;
+    transition: all 750ms ease!important;
+    opacity: 1 !important;
+   }
+   
+   
+   .rtwpvg-thumbnail-image img {
+       display: none;
+   }
+   
+   
+   .rtwpvg-images .rtwpvg-container .rtwpvg-thumbnail-wrapper {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+       
+   }
+   
+   
+   .rtwpvg-images .rtwpvg-container .rtwpvg-thumbnail-wrapper .rtwpvg-thumbnail-slider .rtwpvg-thumbnail-image.current-thumbnail {
+       border: solid 3px #fdb924!important;
+       background: #fdb924!important;
+     min-width: 48px!important;
+}
+
+   
+   
+            /*
+----------------------------------------------------------
+
+LEARN FEATURED PRODUCT
+
+----------------------------------------------------------
+*/
+   
+   .isotope-container .tmb .t-overlay-text .t-entry-title {
+       color: white!important;
+   }
+   
+   .t-entry-excerpt p {
+       color: white!important;
+   }
+   
+   
+   
+ /*
+----------------------------------------------------------
+
+LEARN FEATURED RAPTOR
+
+----------------------------------------------------------
+*/
+   
+   
+ 
+   
+   /* add .feature-raptor-takecommand */
+   
+   
+   .feature-raptor-takecommand {
+    margin-top: -250px!important;
+}
+
+/* add .take-command-txt */
+
+ .take-command-txt {
+    padding-top: 650px!important;
+}
+
+/* add .raptorrelentless */
+
+.raptorrelentless.mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap h2 {
+    padding: 8px 0!important;
+}
+ .raptorrelentless.mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .uncode_text_column {
+     padding-left: 0!important;
+ }
+ 
+ 
+ /* add raptor-active*/
+ 
+ .raptor-active .background-wrapper .background-inner {
+    background-position: center left!important; 
+ }
+ 
+ 
+ 
+ 
+   
+   /*
+----------------------------------------------------------
+
+LEARN FEATURED RIPTIDE
+
+----------------------------------------------------------
+*/ 
+   
+   /* #mk-riptide-banner*/
+   
+   #mk-riptide-banner .background-wrapper .background-inner {
+       background-position: 25% 50%!important;
+   }
+   
+   
+   
+   
+   /* add riptide-tr-vd */
+   
+  .riptide-tr-vd {
+    height: 200px!important;
+}
+
+/* add .new87*/
+
+.new87.mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .uncode_text_column{
+    padding-left: 0px!important;
+}
+   
+ .new87.mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap h2 {
+     padding: 8px 0!important;
+ }
+   
+      /*
+----------------------------------------------------------
+
+LEARN FEATURED RIPTIDE ULTERRA
+
+----------------------------------------------------------
+*/ 
+   
+   
+   
+   /* add auto-deploy-img */
+   
+   .auto-deploy-img .single-wrapper {
+           max-width: 100%!important;
+   }
+   
+   
+   
+   
+         /*
+----------------------------------------------------------
+
+LEARN FEATURED TALON
+
+----------------------------------------------------------
+*/ 
+   
+   /* add talon remote*/
+   .talon-remote .single-wrapper{
+       max-width: 30%!important;
+   }
+   
+ 
+   
+               /*
+----------------------------------------------------------
+
+LEARN FEATURED ULTREX
+
+----------------------------------------------------------
+*/ 
+
+    /* add page class .featured-ultrex */
+   
+   /* add .featured-ultrex-banner*/
+   
+   
+.featured-ultrex .mk-component-hashtag-media .vc_custom_heading_wrap .text-lead p {
+    font-size: 75px!important;
+}
+  .featured-ultrex .mk-component-hashtag-media .vc_custom_heading_wrap .text-lead {
+      top: -70px!important;
+      left: 0!important;
+  }
+   
+   .featured-ultrex .post-content .vc_row {
+       margin-bottom: 60px!important;
+   }
+   
+   .ult-img {
+        margin-top: -200px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+         /*
+----------------------------------------------------------
+
+LEARN TECHNOLOGY
+
+----------------------------------------------------------
+*/
+  
+  
+  
+  /* add page class .learn-tech*/
+  
+  
+   
+   /* add .learn-technology banner*/
+   
+   .learn-technology {
+       padding: 75px 20px;
+   }
+   
+   .learn-technology .background-inner {
+          background-position: center left!important;
+   }
+   
+
+/* add learn-tech-oneboat */
+   .learn-tech-oneboat .background-wrapper .background-inner {
+           background-position: center center!important;
+        background-size: cover!important;
+   }
+   
+   .learn-tech-oneboat .uncell {
+       padding: 36px;
+   }
+   
+   
+   /* add .tech-one */
+   
+   
+   .tech-one {
+       padding-top: 80px!important;
+   }
+   
+   
+  .learn-tech .mk-component-image-feature-block .wpb_row .wpb_column:first-of-type .uncont .vc_custom_heading_wrap h2 {
+      width: 100%!important;
+  }
+   
+   
+   
+      
+         /*
+----------------------------------------------------------
+
+LEARN TECHNOLOGY IPILOT
+
+----------------------------------------------------------
+*/
+
+   
+  .nothing-remotely .vc_custom_heading_wrap .heading-text h2 {
+           padding: 20px 0px!important;
+   }
+   
+   .nothing-remotely .uncode_text_column.bottom-t-top {
+       padding-left: 0!important;
+   }
+   
+   
+   
+   
+      /*
+----------------------------------------------------------
+
+LEARN TECHNOLOGY I-PILOT LINK
+
+----------------------------------------------------------
+*/ 
+   /* add page class .ipilotlink*/
+   
+   
+   .ipilotlink .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .uncode_text_column {
+       padding: 0!important;
+   }
+   
+   .ipilotlink .mk-component-video-feature-box-alt-2 .wpb_column:last-of-type .uncont .vc_custom_heading_wrap h2 {
+       padding: 20px 0px!important;
+   }
+   
+   /* add ipilot-part*/
+   .ipilot-part .tmb .t-entry-visual img  {
+       width: 160%!important;
+   }
+   
+   
+   
+   
+         /*
+----------------------------------------------------------
+
+LEARN TECHNOLOGY TROLLING MOTORS
+
+----------------------------------------------------------
+*/ 
+   
+   
+   
+   /* add .my-spot*/
+   
+   .my-spot .vc_custom_heading_wrap .heading-text h2 {
+       padding: 20px 0px!important;
+   }
+   
+   
+   .my-spot .uncode_text_column {
+       padding-left: 0!important;
+   }
+   
+   
+   
+   
+            /*
+----------------------------------------------------------
+
+LEARN TECHNOLOGY BATTERY CHARGERS
+
+----------------------------------------------------------
+*/ 
+
+   
+   
+               /*
+----------------------------------------------------------
+
+LEARN TECHNOLOGY BATTERY CHARGERS AMG & LEAD
+
+----------------------------------------------------------
+*/ 
+   
+   .battery-amg .mk-component-page-banner-title .row-parent .uncont{
+    padding: 50px 20px;
+    padding-top: 90px !important;
+   }
+   
+   
+    /* add page class battery-amg*/
+   .amg-heading {
+       padding: 20px 15px!important;
+   }
+   
+   .battery-amg .row.full-width.row-parent {
+       padding: 30px 0!important;
+   }
+   
+   
+   
+   
+   
+                  /*
+----------------------------------------------------------
+
+LEARN TECHNOLOGY BATTERY LITHIUM 
+
+----------------------------------------------------------
+*/ 
+   
+   
+   /*add page class .lithium-battery */
+   .lithium-battery .mk-component-page-banner-title .row-parent .uncont{
+    padding: 50px 20px;
+    padding-top: 90px !important;
+   }
+   
+   
+   .lithium-heading {
+       padding: 20px 15px!important;
+   }
+   
+   
+     .lithium-battery .row.full-width.row-parent {
+       padding: 30px 0!important;
+   }
+   
+   
+   
+   
+                     /*
+----------------------------------------------------------
+
+LEARN TECHNOLOGY ONE BOAT
+
+----------------------------------------------------------
+*/ 
+   /* add page class one-boat*/
+   
+   /* add one-boat-banner */
+   
+ 
+  .one-boat-banner .background-wrapper .background-inner {
+      background-size: cover!important;
+      background-position: center center!important;
+  }
+  
+  .mk-title-1 {
+      padding-left: 20px!important;
+  }
+   
+   
+   .one-boat-engineers .uncode_text_column {
+       padding-right: 0!important;
+   }
+   
+   /* add one-boat-communication*/
+   
+   .one-boat-communication .background-wrapper .background-inner {
+        background-size: cover!important;
+        
+   }
+   
+   .oneboat-title-1 p {
+       font-size: 40px!important;
+   }
+   
+.oneboat-title-2 p {
+    padding: 15px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 8px;
+    font-weight: 600;
+}
+
+
+.one-boat .mk-title-1 h2 {
+    color: white!important;
+    letter-spacing: 15px!important;
+    line-height: 27px!important;
+}
+
+.one-boat .mk-title-1 p {
+    font-size: 36px!important;
+    line-height: 35px!important;
+}
+
+
+
+
+
+
+
+
+
+   
+  
+           /*
+----------------------------------------------------------
+
+LEARN BUYING GUIDES
+
+----------------------------------------------------------
+*/
+  
+   
+   .learn-buying .background-wrapper .background-inner {
+       background-position: center left!important;
+   }
+   
+   /* add buying-guides-txt*/
+   
+   .buying-guides-txt {
+       padding-top: 80px!important;
+   }
+   
+   
+   
+              /*
+----------------------------------------------------------
+
+LEARN BUYING GUIDES TROLLING MOTORS
+
+----------------------------------------------------------
+*/
+   
+   /* add trolling-motor-banner*/
+   
+   
+   .trolling-motor-banner .background-wrapper .background-inner {
+       background-position: -250px center!important;
+   }
+   
+       
+   .troling-txt {
+       padding: 70px 0px;
+   }
+   
+   .trolling-style {
+       padding: 70px 0px;
+   }
+   
+   
+   
+                 /*
+----------------------------------------------------------
+
+LEARN BUYING GUIDES SHALLOW WATER
+
+----------------------------------------------------------
+*/
+   
+   /* add buying-shallow-banner */
+   
+   .buying-shallow-banner {
+       padding: 75px 20px!important;
+   }
+   
+   .buying-shallow-banner .background-wrapper .background-inner {
+       background-position: 100px center!important;
+   }
+   
+   /* add img block */
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+             /*
+----------------------------------------------------------
+
+LEARN VIDEOS
+
+----------------------------------------------------------
+*/ 
+
+    /* add page class learnvideos*/
+    
+    .learnvideos .mk-component-text-feature-block .uncont {
+        padding-top: 60px!important;
+        padding-bottom: 60px!important;
+    }
+
+   
+   .learnvideos .mk-component-text-feature-block .uncont .uncode_text_column p {
+       padding: 0 15px!important;
+   }
+   
+   
+   
+   
+   
+   
+   
+                /*
+----------------------------------------------------------
+
+LEARN PRO TEAM
+
+----------------------------------------------------------
+*/ 
+   
+   
+   
+ .pro-team-category .mk-component-page-banner-title-alt .uncont .vc_custom_heading_wrap h2 {
+     padding: 75px 20px !important;
+ }
+   .pro-team-category .background-wrapper .background-inner {
+       background-position: 15% 50%!important;
+   }
+   
+   
+  .pro-team-category .mk-component-hashtag-media .vc_custom_heading_wrap .text-lead {
+      left: 0!important;
+  }
+  
+  
+  
+ .pro-team-category .mk-component-hashtag-media .vc_custom_heading_wrap .text-lead p {
+     font-size: 65px;
+     width: 350px;
+     overflow-wrap: break-word;
+     letter-spacing: 0!important;
+ }
+  
+  .pro-team-category .mk-component-hashtag-media .vc_custom_heading_wrap h2 {
+      margin-bottom: -40px!important;
+  }
+  
+  
+
+  
+  
+  
+  
+  
+      
+                /*
+----------------------------------------------------------
+
+SUPPORT FAQ
+
+----------------------------------------------------------
+*/ 
+   
+     /* add .support-faq banner*/
+   
+   
+   .support-faq .background {
+       background-position: center left!important;
+   }
+   
+   
+
+   
+   .support-faq .background-wrapper .background-inner {
+       background-position: center left!important;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+/*
+----------------------------------------------------------
+
+SUPPORT SOFTWARE
+
+----------------------------------------------------------
+*/ 
+   
+   
+
+   
+   
+   
+/*
+----------------------------------------------------------
+
+CONTACT US
+
+----------------------------------------------------------
+*/   
+   
+
+   
+   
+   
+
+
+   
+}
+
+
+
+
+
+/*
+----------------------------------------------------------
+KIOSK
+----------------------------------------------------------
+*/   
+
+@media screen and (min-width:1080px) and (min-height:1900px) {
+    
+/********************* MEGA MENU *****************************/
+
+#menu-main-menu > li:hover .mega-menu-inner {
+    left: -237px!important;
+}
+
+
+#menu-main-menu > li .mega-menu-inner .category-menu {
+    padding-left: 200px!important;
+}
+
+#menu-main-menu > li:nth-child(1) .mega-menu-inner .category-image {
+    background-position: center!important;
+}
+
+
+/********************* PRODUCT PAGE *****************************/
+
+.mk-component-page-banner-title .background-wrapper .background-inner {
+    background-position: initial!important;
+}
+
+
+
+.mk-component-page-banner-title-alt .background-wrapper .background-inner {
+    background-position: left!important;
+}
+
+
+/********************* PRO TEAM PAGE *****************************/
+.mk-pro-team-profile-pic .uncode-single-media-wrapper {
+    width: 350px;
+}
+
+
+
+
+
+
+/*********************** learn-riptide-ulterra ******************************/
+.mk-components-product-feature-block .wpb_row .wpb_column:first-of-type .uncont img {
+    width:100%!important;
+}
+
+
+.mk-component-image-feature-block-alt .wpb_row .wpb_column:last-of-type .uncell {
+    flex-direction: column;
+    
+}
+
+div#row-unique-4 {
+    height: 700px;
+}
+
+div#row-unique-8 {
+    height: 700px;
+}
+
+
+div#row-unique-7 {
+    height: 500px;
+}
+
+div#row-unique-1 {
+    height: 1000px;
+}
+
+
+
+
+}
+
+/*@media screen and (min-width:0px) and (max-width:1035px) {*/
+/*        .product-page-posts {*/
+/*        display:block;*/
+/*    }*/
+
+/*    .product-page-posts-kiosk {*/
+/*        display:none;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width:1036px) and (max-width:1100px) {*/
+    
+/*    .product-page-posts {*/
+/*        display:none;*/
+/*    }*/
+
+/*    .product-page-posts-kiosk {*/
+/*        display:block;*/
+/*    }*/
+
+/*}*/
+
+
+/*@media screen and (min-width:1101px) {*/
+    
+/*     .product-page-posts {*/
+/*        display:block;*/
+/*    }*/
+
+/*    .product-page-posts-kiosk {*/
+/*        display:none;*/
+/*    }*/
+    
+/*}*/
+
+
+
+
+
+
+
+
+

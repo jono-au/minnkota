@@ -1,0 +1,7 @@
+@media only screen and (max-width: 569px) {
+    
+    #mk-deal-locator > .row.full-width.row-parent {
+        padding:0 !important;
+    }
+     
+}
